@@ -1,0 +1,30 @@
+https://community.cloudera.com/t5/Community-Articles/Change-Data-Capture-CDC-with-Apache-NiFi-Part-1-of-3/ta-p/246623
+https://community.cloudera.com/t5/Community-Articles/Change-Data-Capture-CDC-with-Apache-NiFi-Part-2-of-3/ta-p/246519
+https://github.com/robcowart/docker_compose_cookbook/blob/master/nifi/docker-compose.yml
+
+com.mysql.jdbc.Driver
+
+https://regexr.com/
+(product_types|user_subscription).*
+(talent|talent_agency|project).*
+
+
+xxx.xxx.x.xx:3306
+/opt/nifi/nifi-current/driver/mysql-connector-j-8.0.32.jar
+database_name
+
+
+/opt/nifi/nifi-current/driver/clickhouse-cli-client-0.6.1-shaded.jar
+
+{
+  "type" : "ddl",
+  "timestamp" : 1716804078000,
+  "binlog_filename" : "binlog.000054",
+  "binlog_position" : 7325129,
+  "database" : "database_name",
+  "table_name" : null,
+  "table_id" : null,
+  "query" : "ALTER TABLE `organization` ADD COLUMN `dashboard_url` TEXT DEFAULT NULL"
+}
+
+https://clickhouse.com/docs/en/integrations/nifi
